@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
+#import "GenPdfViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+//    FirstViewController* firstVC = [[FirstViewController alloc] init];
+    GenPdfViewController* firstVC = [[GenPdfViewController alloc] init];
+    self.window.rootViewController = firstVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

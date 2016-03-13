@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74006A571C93192500A71386 /* just a test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 74006A561C93192500A71386 /* just a test.pdf */; };
+		74006A5A1C938EAC00A71386 /* BNHtmlPdfKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */; };
+		74006A5D1C93A9F100A71386 /* UIWebView+ToFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */; };
+		74006A641C94F28500A71386 /* GenPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A631C94F28500A71386 /* GenPdfViewController.m */; };
+		74006A671C95058700A71386 /* SignPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A661C95058700A71386 /* SignPdfViewController.m */; };
+		74006A6E1C95501C00A71386 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */; };
+		74006A711C95B4EF00A71386 /* FinalPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A701C95B4EF00A71386 /* FinalPdfViewController.m */; };
 		74B20FFE1C92EAAF00D98D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B20FFD1C92EAAF00D98D15 /* main.m */; };
 		74B210011C92EAAF00D98D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B210001C92EAAF00D98D15 /* AppDelegate.m */; };
-		74B210041C92EAAF00D98D15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B210031C92EAAF00D98D15 /* ViewController.m */; };
-		74B210071C92EAAF00D98D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B210051C92EAAF00D98D15 /* Main.storyboard */; };
 		74B210091C92EAAF00D98D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B210081C92EAAF00D98D15 /* Assets.xcassets */; };
 		74B2100C1C92EAAF00D98D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B2100A1C92EAAF00D98D15 /* LaunchScreen.storyboard */; };
+		74B210151C92EB6600D98D15 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B210141C92EB6600D98D15 /* FirstViewController.m */; };
+		83AF73243E3943AA72446F7A /* libPods-SignPdfDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B35B19B809B4321D4DB2200 /* libPods-SignPdfDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B35B19B809B4321D4DB2200 /* libPods-SignPdfDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SignPdfDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74006A561C93192500A71386 /* just a test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "just a test.pdf"; sourceTree = "<group>"; };
+		74006A581C938EAC00A71386 /* BNHtmlPdfKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHtmlPdfKit.h; sourceTree = "<group>"; };
+		74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNHtmlPdfKit.m; sourceTree = "<group>"; };
+		74006A5B1C93A9F100A71386 /* UIWebView+ToFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ToFile.h"; sourceTree = "<group>"; };
+		74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ToFile.m"; sourceTree = "<group>"; };
+		74006A621C94F28500A71386 /* GenPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenPdfViewController.h; sourceTree = "<group>"; };
+		74006A631C94F28500A71386 /* GenPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenPdfViewController.m; sourceTree = "<group>"; };
+		74006A651C95058700A71386 /* SignPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignPdfViewController.h; sourceTree = "<group>"; };
+		74006A661C95058700A71386 /* SignPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignPdfViewController.m; sourceTree = "<group>"; };
+		74006A6C1C95501C00A71386 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
+		74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
+		74006A6F1C95B4EF00A71386 /* FinalPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalPdfViewController.h; sourceTree = "<group>"; };
+		74006A701C95B4EF00A71386 /* FinalPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalPdfViewController.m; sourceTree = "<group>"; };
 		74B20FF91C92EAAF00D98D15 /* SignPdfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignPdfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B20FFD1C92EAAF00D98D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74B20FFF1C92EAAF00D98D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74B210001C92EAAF00D98D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74B210021C92EAAF00D98D15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74B210031C92EAAF00D98D15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74B210061C92EAAF00D98D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B210081C92EAAF00D98D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B2100B1C92EAAF00D98D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B2100D1C92EAAF00D98D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B210131C92EB6600D98D15 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		74B210141C92EB6600D98D15 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7DA548DFAF639E2FA7C70DA4 /* Pods-SignPdfDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignPdfDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB742FB0FED5CDC74B0E3DB0 /* Pods-SignPdfDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignPdfDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AF73243E3943AA72446F7A /* libPods-SignPdfDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		144DCC1D92C202C0A6A78573 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA548DFAF639E2FA7C70DA4 /* Pods-SignPdfDemo.debug.xcconfig */,
+				CB742FB0FED5CDC74B0E3DB0 /* Pods-SignPdfDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25A85B65FE676152986403C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B35B19B809B4321D4DB2200 /* libPods-SignPdfDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74B20FF01C92EAAF00D98D15 = {
 			isa = PBXGroup;
 			children = (
 				74B20FFB1C92EAAF00D98D15 /* SignPdfDemo */,
 				74B20FFA1C92EAAF00D98D15 /* Products */,
+				144DCC1D92C202C0A6A78573 /* Pods */,
+				25A85B65FE676152986403C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +100,27 @@
 		74B20FFB1C92EAAF00D98D15 /* SignPdfDemo */ = {
 			isa = PBXGroup;
 			children = (
+				74006A6C1C95501C00A71386 /* SignatureViewQuartzQuadratic.h */,
+				74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */,
+				74006A581C938EAC00A71386 /* BNHtmlPdfKit.h */,
+				74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */,
 				74B20FFF1C92EAAF00D98D15 /* AppDelegate.h */,
 				74B210001C92EAAF00D98D15 /* AppDelegate.m */,
-				74B210021C92EAAF00D98D15 /* ViewController.h */,
-				74B210031C92EAAF00D98D15 /* ViewController.m */,
-				74B210051C92EAAF00D98D15 /* Main.storyboard */,
+				74006A561C93192500A71386 /* just a test.pdf */,
 				74B210081C92EAAF00D98D15 /* Assets.xcassets */,
 				74B2100A1C92EAAF00D98D15 /* LaunchScreen.storyboard */,
 				74B2100D1C92EAAF00D98D15 /* Info.plist */,
 				74B20FFC1C92EAAF00D98D15 /* Supporting Files */,
+				74B210131C92EB6600D98D15 /* FirstViewController.h */,
+				74B210141C92EB6600D98D15 /* FirstViewController.m */,
+				74006A5B1C93A9F100A71386 /* UIWebView+ToFile.h */,
+				74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */,
+				74006A621C94F28500A71386 /* GenPdfViewController.h */,
+				74006A631C94F28500A71386 /* GenPdfViewController.m */,
+				74006A651C95058700A71386 /* SignPdfViewController.h */,
+				74006A661C95058700A71386 /* SignPdfViewController.m */,
+				74006A6F1C95B4EF00A71386 /* FinalPdfViewController.h */,
+				74006A701C95B4EF00A71386 /* FinalPdfViewController.m */,
 			);
 			path = SignPdfDemo;
 			sourceTree = "<group>";
@@ -86,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B210101C92EAAF00D98D15 /* Build configuration list for PBXNativeTarget "SignPdfDemo" */;
 			buildPhases = (
+				59DF95A708C7899317F0C3B5 /* Check Pods Manifest.lock */,
 				74B20FF51C92EAAF00D98D15 /* Sources */,
 				74B20FF61C92EAAF00D98D15 /* Frameworks */,
 				74B20FF71C92EAAF00D98D15 /* Resources */,
+				2857C4D5A2D29615BF5A8DD5 /* Embed Pods Frameworks */,
+				8F0F0539438DDE77EC9A49F1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,36 +193,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74006A571C93192500A71386 /* just a test.pdf in Resources */,
 				74B2100C1C92EAAF00D98D15 /* LaunchScreen.storyboard in Resources */,
 				74B210091C92EAAF00D98D15 /* Assets.xcassets in Resources */,
-				74B210071C92EAAF00D98D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2857C4D5A2D29615BF5A8DD5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59DF95A708C7899317F0C3B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0F0539438DDE77EC9A49F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74B20FF51C92EAAF00D98D15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B210041C92EAAF00D98D15 /* ViewController.m in Sources */,
+				74006A5A1C938EAC00A71386 /* BNHtmlPdfKit.m in Sources */,
 				74B210011C92EAAF00D98D15 /* AppDelegate.m in Sources */,
+				74006A641C94F28500A71386 /* GenPdfViewController.m in Sources */,
+				74006A6E1C95501C00A71386 /* SignatureViewQuartzQuadratic.m in Sources */,
+				74006A671C95058700A71386 /* SignPdfViewController.m in Sources */,
+				74006A711C95B4EF00A71386 /* FinalPdfViewController.m in Sources */,
+				74006A5D1C93A9F100A71386 /* UIWebView+ToFile.m in Sources */,
 				74B20FFE1C92EAAF00D98D15 /* main.m in Sources */,
+				74B210151C92EB6600D98D15 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74B210051C92EAAF00D98D15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B210061C92EAAF00D98D15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74B2100A1C92EAAF00D98D15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,9 +364,11 @@
 		};
 		74B210111C92EAAF00D98D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA548DFAF639E2FA7C70DA4 /* Pods-SignPdfDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SignPdfDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutup.SignPdfDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +377,11 @@
 		};
 		74B210121C92EAAF00D98D15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB742FB0FED5CDC74B0E3DB0 /* Pods-SignPdfDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SignPdfDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutup.SignPdfDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +407,7 @@
 				74B210121C92EAAF00D98D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
