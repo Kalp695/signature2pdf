@@ -21,9 +21,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     
-//    FirstViewController* firstVC = [[FirstViewController alloc] init];
-    GenPdfViewController* firstVC = [[GenPdfViewController alloc] init];
-    self.window.rootViewController = firstVC;
+    FirstViewController* firstVC = [[FirstViewController alloc] init];
+    UINavigationController* navgationVC = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    self.window.rootViewController = navgationVC;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

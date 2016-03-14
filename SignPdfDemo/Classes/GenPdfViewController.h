@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GenPdfViewController : UIViewController
-
+@property (nonatomic, strong) NSString* nameStr;
 @end

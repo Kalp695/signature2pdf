@@ -50,7 +50,7 @@
             
             UIView* last = [b firstObject];
             if ([last isKindOfClass:NSClassFromString(@"UIPDFPageView")]) {
-                //                last.layer.shadowOpacity = 0;
+                //add an sign view in front of pdf page
                 CGRect newRect = [view convertRect:last.bounds fromView:last];
                 [self.signView setFrame:newRect];
                 [view addSubview:self.signView];
@@ -104,7 +104,7 @@
             NSLog(@"Writing annotations");
             CGFloat scale_width = size.width / self.signView.bounds.size.width;
             CGFloat scale_height = size.height / self.signView.bounds.size.height;
-//            [self.signView.path ]
+            //scale the sign
             CGAffineTransform transform = CGAffineTransformMakeScale(scale_width, scale_height);
             CGPathRef intermediatePath = CGPathCreateCopyByTransformingPath(self.signView.path.CGPath,
                                                                             &transform);

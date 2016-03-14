@@ -7,45 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74006A571C93192500A71386 /* just a test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 74006A561C93192500A71386 /* just a test.pdf */; };
-		74006A5A1C938EAC00A71386 /* BNHtmlPdfKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */; };
-		74006A5D1C93A9F100A71386 /* UIWebView+ToFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */; };
-		74006A641C94F28500A71386 /* GenPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A631C94F28500A71386 /* GenPdfViewController.m */; };
-		74006A671C95058700A71386 /* SignPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A661C95058700A71386 /* SignPdfViewController.m */; };
-		74006A6E1C95501C00A71386 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */; };
-		74006A711C95B4EF00A71386 /* FinalPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74006A701C95B4EF00A71386 /* FinalPdfViewController.m */; };
+		740EEFD41C96EB5600B249AA /* BNHtmlPdfKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFC51C96EB5600B249AA /* BNHtmlPdfKit.m */; };
+		740EEFD51C96EB5600B249AA /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFC71C96EB5600B249AA /* SignatureViewQuartzQuadratic.m */; };
+		740EEFD61C96EB5600B249AA /* UIWebView+ToFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFC91C96EB5600B249AA /* UIWebView+ToFile.m */; };
+		740EEFD71C96EB5600B249AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFCC1C96EB5600B249AA /* AppDelegate.m */; };
+		740EEFD81C96EB5600B249AA /* FinalPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFCF1C96EB5600B249AA /* FinalPdfViewController.m */; };
+		740EEFD91C96EB5600B249AA /* GenPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFD11C96EB5600B249AA /* GenPdfViewController.m */; };
+		740EEFDA1C96EB5600B249AA /* SignPdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFD31C96EB5600B249AA /* SignPdfViewController.m */; };
+		740EEFDE1C96ECD300B249AA /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFDD1C96ECD300B249AA /* NSString+Common.m */; };
+		740EEFE11C96F0A900B249AA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFE01C96F0A900B249AA /* SecondViewController.m */; };
+		740EEFE41C96F0E800B249AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EEFE31C96F0E800B249AA /* FirstViewController.m */; };
 		74B20FFE1C92EAAF00D98D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B20FFD1C92EAAF00D98D15 /* main.m */; };
-		74B210011C92EAAF00D98D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B210001C92EAAF00D98D15 /* AppDelegate.m */; };
 		74B210091C92EAAF00D98D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B210081C92EAAF00D98D15 /* Assets.xcassets */; };
 		74B2100C1C92EAAF00D98D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B2100A1C92EAAF00D98D15 /* LaunchScreen.storyboard */; };
-		74B210151C92EB6600D98D15 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B210141C92EB6600D98D15 /* FirstViewController.m */; };
 		83AF73243E3943AA72446F7A /* libPods-SignPdfDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B35B19B809B4321D4DB2200 /* libPods-SignPdfDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B35B19B809B4321D4DB2200 /* libPods-SignPdfDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SignPdfDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74006A561C93192500A71386 /* just a test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "just a test.pdf"; sourceTree = "<group>"; };
-		74006A581C938EAC00A71386 /* BNHtmlPdfKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHtmlPdfKit.h; sourceTree = "<group>"; };
-		74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNHtmlPdfKit.m; sourceTree = "<group>"; };
-		74006A5B1C93A9F100A71386 /* UIWebView+ToFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ToFile.h"; sourceTree = "<group>"; };
-		74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ToFile.m"; sourceTree = "<group>"; };
-		74006A621C94F28500A71386 /* GenPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenPdfViewController.h; sourceTree = "<group>"; };
-		74006A631C94F28500A71386 /* GenPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenPdfViewController.m; sourceTree = "<group>"; };
-		74006A651C95058700A71386 /* SignPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignPdfViewController.h; sourceTree = "<group>"; };
-		74006A661C95058700A71386 /* SignPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignPdfViewController.m; sourceTree = "<group>"; };
-		74006A6C1C95501C00A71386 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
-		74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
-		74006A6F1C95B4EF00A71386 /* FinalPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalPdfViewController.h; sourceTree = "<group>"; };
-		74006A701C95B4EF00A71386 /* FinalPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalPdfViewController.m; sourceTree = "<group>"; };
+		740EEFC41C96EB5600B249AA /* BNHtmlPdfKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHtmlPdfKit.h; sourceTree = "<group>"; };
+		740EEFC51C96EB5600B249AA /* BNHtmlPdfKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNHtmlPdfKit.m; sourceTree = "<group>"; };
+		740EEFC61C96EB5600B249AA /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
+		740EEFC71C96EB5600B249AA /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
+		740EEFC81C96EB5600B249AA /* UIWebView+ToFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ToFile.h"; sourceTree = "<group>"; };
+		740EEFC91C96EB5600B249AA /* UIWebView+ToFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ToFile.m"; sourceTree = "<group>"; };
+		740EEFCB1C96EB5600B249AA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740EEFCC1C96EB5600B249AA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740EEFCE1C96EB5600B249AA /* FinalPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalPdfViewController.h; sourceTree = "<group>"; };
+		740EEFCF1C96EB5600B249AA /* FinalPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalPdfViewController.m; sourceTree = "<group>"; };
+		740EEFD01C96EB5600B249AA /* GenPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenPdfViewController.h; sourceTree = "<group>"; };
+		740EEFD11C96EB5600B249AA /* GenPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenPdfViewController.m; sourceTree = "<group>"; };
+		740EEFD21C96EB5600B249AA /* SignPdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignPdfViewController.h; sourceTree = "<group>"; };
+		740EEFD31C96EB5600B249AA /* SignPdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignPdfViewController.m; sourceTree = "<group>"; };
+		740EEFDC1C96ECD300B249AA /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		740EEFDD1C96ECD300B249AA /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		740EEFDF1C96F0A900B249AA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		740EEFE01C96F0A900B249AA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		740EEFE21C96F0E800B249AA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		740EEFE31C96F0E800B249AA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		74B20FF91C92EAAF00D98D15 /* SignPdfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignPdfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B20FFD1C92EAAF00D98D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74B20FFF1C92EAAF00D98D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		74B210001C92EAAF00D98D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		74B210081C92EAAF00D98D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B2100B1C92EAAF00D98D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B2100D1C92EAAF00D98D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74B210131C92EB6600D98D15 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		74B210141C92EB6600D98D15 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7DA548DFAF639E2FA7C70DA4 /* Pods-SignPdfDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignPdfDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CB742FB0FED5CDC74B0E3DB0 /* Pods-SignPdfDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignPdfDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignPdfDemo/Pods-SignPdfDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +83,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		740EEFC31C96EB5600B249AA /* 3rd_libs */ = {
+			isa = PBXGroup;
+			children = (
+				740EEFC41C96EB5600B249AA /* BNHtmlPdfKit.h */,
+				740EEFC51C96EB5600B249AA /* BNHtmlPdfKit.m */,
+				740EEFC61C96EB5600B249AA /* SignatureViewQuartzQuadratic.h */,
+				740EEFC71C96EB5600B249AA /* SignatureViewQuartzQuadratic.m */,
+				740EEFC81C96EB5600B249AA /* UIWebView+ToFile.h */,
+				740EEFC91C96EB5600B249AA /* UIWebView+ToFile.m */,
+			);
+			path = 3rd_libs;
+			sourceTree = "<group>";
+		};
+		740EEFCA1C96EB5600B249AA /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				740EEFCB1C96EB5600B249AA /* AppDelegate.h */,
+				740EEFCC1C96EB5600B249AA /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		740EEFCD1C96EB5600B249AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				740EEFE21C96F0E800B249AA /* FirstViewController.h */,
+				740EEFE31C96F0E800B249AA /* FirstViewController.m */,
+				740EEFCE1C96EB5600B249AA /* FinalPdfViewController.h */,
+				740EEFCF1C96EB5600B249AA /* FinalPdfViewController.m */,
+				740EEFD01C96EB5600B249AA /* GenPdfViewController.h */,
+				740EEFD11C96EB5600B249AA /* GenPdfViewController.m */,
+				740EEFD21C96EB5600B249AA /* SignPdfViewController.h */,
+				740EEFD31C96EB5600B249AA /* SignPdfViewController.m */,
+				740EEFDF1C96F0A900B249AA /* SecondViewController.h */,
+				740EEFE01C96F0A900B249AA /* SecondViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		740EEFDB1C96EC8900B249AA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				740EEFDC1C96ECD300B249AA /* NSString+Common.h */,
+				740EEFDD1C96ECD300B249AA /* NSString+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		74B20FF01C92EAAF00D98D15 = {
 			isa = PBXGroup;
 			children = (
@@ -100,27 +152,14 @@
 		74B20FFB1C92EAAF00D98D15 /* SignPdfDemo */ = {
 			isa = PBXGroup;
 			children = (
-				74006A6C1C95501C00A71386 /* SignatureViewQuartzQuadratic.h */,
-				74006A6D1C95501C00A71386 /* SignatureViewQuartzQuadratic.m */,
-				74006A581C938EAC00A71386 /* BNHtmlPdfKit.h */,
-				74006A591C938EAC00A71386 /* BNHtmlPdfKit.m */,
-				74B20FFF1C92EAAF00D98D15 /* AppDelegate.h */,
-				74B210001C92EAAF00D98D15 /* AppDelegate.m */,
-				74006A561C93192500A71386 /* just a test.pdf */,
+				740EEFDB1C96EC8900B249AA /* Category */,
+				740EEFC31C96EB5600B249AA /* 3rd_libs */,
+				740EEFCA1C96EB5600B249AA /* Appdelegate */,
+				740EEFCD1C96EB5600B249AA /* Classes */,
 				74B210081C92EAAF00D98D15 /* Assets.xcassets */,
 				74B2100A1C92EAAF00D98D15 /* LaunchScreen.storyboard */,
 				74B2100D1C92EAAF00D98D15 /* Info.plist */,
 				74B20FFC1C92EAAF00D98D15 /* Supporting Files */,
-				74B210131C92EB6600D98D15 /* FirstViewController.h */,
-				74B210141C92EB6600D98D15 /* FirstViewController.m */,
-				74006A5B1C93A9F100A71386 /* UIWebView+ToFile.h */,
-				74006A5C1C93A9F100A71386 /* UIWebView+ToFile.m */,
-				74006A621C94F28500A71386 /* GenPdfViewController.h */,
-				74006A631C94F28500A71386 /* GenPdfViewController.m */,
-				74006A651C95058700A71386 /* SignPdfViewController.h */,
-				74006A661C95058700A71386 /* SignPdfViewController.m */,
-				74006A6F1C95B4EF00A71386 /* FinalPdfViewController.h */,
-				74006A701C95B4EF00A71386 /* FinalPdfViewController.m */,
 			);
 			path = SignPdfDemo;
 			sourceTree = "<group>";
@@ -193,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74006A571C93192500A71386 /* just a test.pdf in Resources */,
 				74B2100C1C92EAAF00D98D15 /* LaunchScreen.storyboard in Resources */,
 				74B210091C92EAAF00D98D15 /* Assets.xcassets in Resources */,
 			);
@@ -254,15 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74006A5A1C938EAC00A71386 /* BNHtmlPdfKit.m in Sources */,
-				74B210011C92EAAF00D98D15 /* AppDelegate.m in Sources */,
-				74006A641C94F28500A71386 /* GenPdfViewController.m in Sources */,
-				74006A6E1C95501C00A71386 /* SignatureViewQuartzQuadratic.m in Sources */,
-				74006A671C95058700A71386 /* SignPdfViewController.m in Sources */,
-				74006A711C95B4EF00A71386 /* FinalPdfViewController.m in Sources */,
-				74006A5D1C93A9F100A71386 /* UIWebView+ToFile.m in Sources */,
+				740EEFE41C96F0E800B249AA /* FirstViewController.m in Sources */,
+				740EEFD81C96EB5600B249AA /* FinalPdfViewController.m in Sources */,
 				74B20FFE1C92EAAF00D98D15 /* main.m in Sources */,
-				74B210151C92EB6600D98D15 /* FirstViewController.m in Sources */,
+				740EEFD71C96EB5600B249AA /* AppDelegate.m in Sources */,
+				740EEFDE1C96ECD300B249AA /* NSString+Common.m in Sources */,
+				740EEFD91C96EB5600B249AA /* GenPdfViewController.m in Sources */,
+				740EEFDA1C96EB5600B249AA /* SignPdfViewController.m in Sources */,
+				740EEFD61C96EB5600B249AA /* UIWebView+ToFile.m in Sources */,
+				740EEFE11C96F0A900B249AA /* SecondViewController.m in Sources */,
+				740EEFD41C96EB5600B249AA /* BNHtmlPdfKit.m in Sources */,
+				740EEFD51C96EB5600B249AA /* SignatureViewQuartzQuadratic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
