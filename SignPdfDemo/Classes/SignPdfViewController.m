@@ -7,6 +7,8 @@
 //
 
 #import "SignPdfViewController.h"
+#import "FinalPdfViewController.h"
+
 #import "NSString+Common.h"
 #import "SignatureViewQuartzQuadratic.h"
 #import "BNHtmlPdfKit.h"
@@ -28,6 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
     [self.view addSubview:self.webView];
     [self.view addSubview:self.signPdfBtn];
     [self.view addSubview:self.okBtn];
@@ -124,6 +129,10 @@
     
     CGPDFDocumentRelease (doc);
     NSLog(@"the temp path:%@",tempPath);
+    
+    FinalPdfViewController* finalPdfVC = [[FinalPdfViewController alloc] init];
+    finalPdfVC.fileStr = tempPath;
+    [self.navigationController pushViewController:finalPdfVC animated:YES];
     
 }
 - (void)signPdfBtnClicked:(UIButton*)btn
