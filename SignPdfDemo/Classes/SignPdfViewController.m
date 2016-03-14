@@ -7,6 +7,7 @@
 //
 
 #import "SignPdfViewController.h"
+#import "NSString+Common.h"
 #import "SignatureViewQuartzQuadratic.h"
 #import "BNHtmlPdfKit.h"
 #import <Masonry.h>
@@ -73,7 +74,7 @@
     CGPDFDocumentRef doc = CGPDFDocumentCreateWithURL((CFURLRef)pdfUrl);
     
     
-    NSString *tempPath = [NSTemporaryDirectory() stringByAppendingString:@"annotated.pdf"];
+    NSString *tempPath = [NSString getFullPathForFileName:@"signed_pdf.pdf"];
     //CGRectZero means the default page size is 8.5x11
     //We don't care about the default anyway, because we set each page to be a specific size
     UIGraphicsBeginPDFContextToFile(tempPath, CGRectZero, nil);
