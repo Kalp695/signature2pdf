@@ -46,8 +46,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - UIWebViewDelegate
-- (void)webViewDidFinishLoad:(UIWebView *)webView
+- (void)viewDidLayoutSubviews
 {
     NSArray* a = [self.webView.scrollView subviews];
     for (UIView* view in a) {
@@ -66,9 +65,15 @@
     
     [self.okBtn setEnabled:YES];
     [self.signPdfBtn setEnabled:YES];
-    self.content_hetght = webView.scrollView.contentSize.height;
+    self.content_hetght = self.webView.scrollView.contentSize.height;
     self.content_num = [self getTotalPDFPages:self.fileName];
     self.page_height = self.content_hetght / self.content_num;
+}
+#pragma mark - UIWebViewDelegate
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    //in ios8 ,the UIPDFPageView is inserted into webView after this call.
+    //so we need to move the code here to - (void)viewDidLayoutSubviews;
 }
 
 #pragma mark - action
