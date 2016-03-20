@@ -119,11 +119,11 @@
             CGAffineTransform transform = CGAffineTransformMakeScale(scale_width, scale_height);
             CGPathRef intermediatePath = CGPathCreateCopyByTransformingPath(self.signView.path.CGPath,
                                                                             &transform);
-            self.signView.path.CGPath = intermediatePath;
+//            self.signView.path.CGPath = intermediatePath;
             //Flip back right-side up
             CGContextScaleCTM(context, 1.0, -1.0);
             CGContextTranslateCTM(context, 0, -bounds.size.height);
-            CGContextAddPath(context, self.signView.path.CGPath);
+            CGContextAddPath(context, intermediatePath);
             CGContextSetLineWidth(context, 3.0f);
             CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
             CGContextStrokePath(context);
